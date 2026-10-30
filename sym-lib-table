@@ -1,0 +1,3 @@
+(sym_lib_table
+ (lib (name "FF_Catala")(type "KiCad")(uri "${KIPRJMOD}/FF_Catala.kicad_sym")(options "")(descr "Project schematics symbols"))
+)

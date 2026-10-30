@@ -1,0 +1,85 @@
+(footprint "Cap_1206"
+	(version 20241229)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "REF**"
+			(at 0 -3.4 0)
+			(layer "F.SilkS")
+			(uuid "6da5d163-57a2-46b0-beac-b24e2fffbc5b")
+			(effects
+				(font
+					(size 1.15 1.15)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17411367-1591-43ea-bc54-5b1a72842def")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53c63e5a-c149-41e5-8ed2-a0bb93b1bca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d410e2e-4ad2-4bde-b397-e179c4c051b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.25 -1.3)
+			(end 2.25 1.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2bd60fd5-458e-48c2-922a-71696609a6fe")
+		)
+		(pad "1" smd rect
+			(at -2.05 0)
+			(size 1.5 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "992e7ce6-2dd6-4687-9664-8695c6b110a3"))
+		(pad "2" smd rect
+			(at 2.05 0)
+			(size 1.5 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "af7e835f-5fde-4ba7-82a4-9683b657c31b"))
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/SMD_Cap.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.393701 0.393701 0.393701)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

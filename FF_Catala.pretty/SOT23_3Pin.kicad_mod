@@ -1,0 +1,90 @@
+(footprint "SOT23_3Pin"
+	(version 20241229)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "REF**"
+			(at 0 -3.3 0)
+			(layer "F.SilkS")
+			(uuid "ee119e59-68d1-4e2c-bd4a-0ce74eeebb89")
+			(effects
+				(font
+					(size 1.05 1.05)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Transistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfde3900-1e7d-4fab-9ae2-2a83583be6ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2db043c9-0e8f-43c0-aa95-9be59dd27718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "871be361-7bb3-4825-add8-2af2b2564d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.3 -2)
+			(end 2.3 2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "978173a2-cb65-4bd6-b695-7a34e2389a6e")
+		)
+		(pad "1" smd rect
+			(at -2.2 -1.2)
+			(size 1.7 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "89048948-e032-451c-a030-cdc00d1eb667"))
+		(pad "2" smd rect
+			(at -2.2 1.2)
+			(size 1.7 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "60e75fc9-bb01-4a05-ad43-0b479a54283b"))
+		(pad "3" smd rect
+			(at 2.2 0)
+			(size 1.7 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "b72ec9d2-8399-44a6-9694-c7622d704920"))
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/Transistor_SOT23.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.393701 0.393701 0.393701)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

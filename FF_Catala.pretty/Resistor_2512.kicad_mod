@@ -1,0 +1,85 @@
+(footprint "Resistor_2512"
+	(version 20241229)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "REF**"
+			(at 0 -3.35 0)
+			(layer "F.SilkS")
+			(uuid "8d8b88b0-d76b-48de-9421-88259e3ac4e2")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbf48e12-0430-42a9-8d6b-e09022b64b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06591811-ee0f-46a7-9a5d-458c4e66589b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "593d2448-8d47-41af-9f5b-696c0d8780bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -3.4 -1.45)
+			(end 3.4 1.45)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e9ffb95e-d8eb-4105-a93a-ec14ea0b8eb0")
+		)
+		(pad "1" smd rect
+			(at -3.25 0)
+			(size 1.65 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "82ceac90-ce93-4291-9337-aa522d265638"))
+		(pad "2" smd rect
+			(at 3.25 0)
+			(size 1.65 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "99c4ac13-988a-4df6-8e66-9b1311674779"))
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/SMD_Resistor.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.393701 0.393701 0.393701)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

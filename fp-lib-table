@@ -1,0 +1,3 @@
+(fp_lib_table
+ (lib (name "FF_Catala")(type "KiCad")(uri "${KIPRJMOD}/FF_Catala.pretty")(options "")(descr "Custom Fastest Finger footprint library"))
+)
