@@ -1,0 +1,114 @@
+(footprint "SW_Tact_12mm"
+	(version 20241229)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(property "Reference" "REF**"
+			(at 0 -9.1 0)
+			(layer "F.SilkS")
+			(uuid "d286b0bc-0299-4101-8926-b6b0cf761399")
+			(effects
+				(font
+					(size 1.25 1.25)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Pushbutton 12 mm"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac2e3817-1430-4711-a422-819870561ce0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e589a1f-69c7-44e4-8db7-4f85403c15f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76852dff-0f1e-48b1-b06c-82e8493b0141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "619bdb9e-68fc-429b-92df-96cf5c7633a1")
+		)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dd36878d-d9e8-4f9b-a710-d51476ccea9d")
+		)
+		(pad "1" thru_hole circle
+			(at -7.1 -3.75)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0c56dd7a-77d5-4ac4-ac95-c53ea56d7b0a"))
+		(pad "1" thru_hole circle
+			(at -7.1 3.75)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b3582807-4215-4150-ae68-d616c86bc3e1"))
+		(pad "2" thru_hole circle
+			(at 7.1 -3.75)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e73b45e0-f05e-4a6d-b4fa-a49f206dd408"))
+		(pad "2" thru_hole circle
+			(at 7.1 3.75)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "cca43efe-3c29-40c1-ac04-8f3cae3952cb"))
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/Switch_12mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.393701 0.393701 0.393701)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

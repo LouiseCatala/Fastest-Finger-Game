@@ -1,0 +1,70 @@
+Reference,Value,MPN,Manufacturer,Footprint,Datasheet
+U1,Tang Nano 9K,Tang Nano 9K,Sipeed,FF_RevB:Tang_Nano_9K,https://dl.sipeed.com/fileList/TANG/Nano%209K/2_Schematic/Tang_Nano_9k_3672_Schematic.pdf
+U2,SN74LVC244ADWR,SN74LVC244ADWR,Texas Instruments,FF_RevB:SOIC-20W_7.5x12.8mm_P1.27mm,https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf
+DS1,CC56-12EWA,CC56-12EWA,Kingbright,FF_RevB:CC56_12EWA,https://www.kingbrightusa.com/images/catalog/SPEC/CC56-12EWA.pdf
+R1,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R30,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R2,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R31,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R3,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R32,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R4,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R33,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R5,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R34,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R6,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R35,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R7,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R36,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+R8,330,RC0805FR-07330RL,Yageo,FF_RevB:R_0805_2012Metric,
+R37,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+Q1,AO3400A,AO3400A,Alpha & Omega,FF_RevB:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R9,100,RC0805FR-07100RL,Yageo,FF_RevB:R_0805_2012Metric,
+R14,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+Q2,AO3400A,AO3400A,Alpha & Omega,FF_RevB:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R10,100,RC0805FR-07100RL,Yageo,FF_RevB:R_0805_2012Metric,
+R15,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+Q3,AO3400A,AO3400A,Alpha & Omega,FF_RevB:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R11,100,RC0805FR-07100RL,Yageo,FF_RevB:R_0805_2012Metric,
+R16,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+Q4,AO3400A,AO3400A,Alpha & Omega,FF_RevB:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R12,100,RC0805FR-07100RL,Yageo,FF_RevB:R_0805_2012Metric,
+R17,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+Q5,AO3400A,AO3400A,Alpha & Omega,FF_RevB:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R13,100,RC0805FR-07100RL,Yageo,FF_RevB:R_0805_2012Metric,
+R18,100k,RC0805FR-07100KL,Yageo,FF_RevB:R_0805_2012Metric,
+BZ1,PS1240P02BT,PS1240P02BT,TDK,FF_RevB:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm,https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf
+R19,1k,RC0805FR-071KL,Yageo,FF_RevB:R_0805_2012Metric,
+SW1,B3F-5051,B3F-5051,Omron,FF_RevB:SW_SPST_Omron_B3F-50xx,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf
+R20,10k,RC0805FR-0710KL,Yageo,FF_RevB:R_0805_2012Metric,
+C4,1n,GRM21A5C1H102JA01D,Murata,FF_RevB:C_0805_2012Metric,
+SW2,B3F-5051,B3F-5051,Omron,FF_RevB:SW_SPST_Omron_B3F-50xx,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf
+R21,10k,RC0805FR-0710KL,Yageo,FF_RevB:R_0805_2012Metric,
+C5,1n,GRM21A5C1H102JA01D,Murata,FF_RevB:C_0805_2012Metric,
+SW3,B3F-5051,B3F-5051,Omron,FF_RevB:SW_SPST_Omron_B3F-50xx,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf
+R22,10k,RC0805FR-0710KL,Yageo,FF_RevB:R_0805_2012Metric,
+C6,1n,GRM21A5C1H102JA01D,Murata,FF_RevB:C_0805_2012Metric,
+SW4,B3F-1002-G,B3F-1002-G,Omron,FF_RevB:SW_TH_Tactile_Omron_B3F-100x,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf
+R23,10k,RC0805FR-0710KL,Yageo,FF_RevB:R_0805_2012Metric,
+C7,1n,GRM21A5C1H102JA01D,Murata,FF_RevB:C_0805_2012Metric,
+SW5,B3F-1002-G,B3F-1002-G,Omron,FF_RevB:SW_TH_Tactile_Omron_B3F-100x,https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf
+R24,10k,RC0805FR-0710KL,Yageo,FF_RevB:R_0805_2012Metric,
+C8,1n,GRM21A5C1H102JA01D,Murata,FF_RevB:C_0805_2012Metric,
+D1,WP7113ID,WP7113ID,Kingbright,FF_RevB:LED_D5.0mm,https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf
+R25,1k,RC0805FR-071KL,Yageo,FF_RevB:R_0805_2012Metric,
+D2,WP7113ID,WP7113ID,Kingbright,FF_RevB:LED_D5.0mm,https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf
+R26,1k,RC0805FR-071KL,Yageo,FF_RevB:R_0805_2012Metric,
+D3,WP7113ID,WP7113ID,Kingbright,FF_RevB:LED_D5.0mm,https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf
+R27,1k,RC0805FR-071KL,Yageo,FF_RevB:R_0805_2012Metric,
+D4,WP7113ID,WP7113ID,Kingbright,FF_RevB:LED_D5.0mm,https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf
+R28,1k,RC0805FR-071KL,Yageo,FF_RevB:R_0805_2012Metric,
+C1,100n,GRM21BR71H104KA01L,Murata,FF_RevB:C_0805_2012Metric,
+C2,10u,GRM21BR61A106KE19L,Murata,FF_RevB:C_0805_2012Metric,
+C3,100n,GRM21BR71H104KA01L,Murata,FF_RevB:C_0805_2012Metric,
+H1,M3 mounting,M3 clearance hole,Mechanical,FF_RevB:MountingHole_3.2mm_M3,
+H2,M3 mounting,M3 clearance hole,Mechanical,FF_RevB:MountingHole_3.2mm_M3,
+H3,M3 mounting,M3 clearance hole,Mechanical,FF_RevB:MountingHole_3.2mm_M3,
+H4,M3 mounting,M3 clearance hole,Mechanical,FF_RevB:MountingHole_3.2mm_M3,
+TP1,+3V3,D2.0mm test pad,PCB,FF_RevB:TestPoint_Pad_D2.0mm,
+TP2,GND,D2.0mm test pad,PCB,FF_RevB:TestPoint_Pad_D2.0mm,
+TP3,BUZZER_PWM,D2.0mm test pad,PCB,FF_RevB:TestPoint_Pad_D2.0mm,

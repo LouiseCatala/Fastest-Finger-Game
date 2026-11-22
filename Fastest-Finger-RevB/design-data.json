@@ -1,0 +1,1684 @@
+{
+  "root": "1640017b-0d64-534c-a3ea-62004c14d08e",
+  "parts": [
+    {
+      "ref": "U1",
+      "value": "Tang Nano 9K",
+      "kind": "Tang_Nano_9K",
+      "fp": "FF_RevB:Tang_Nano_9K",
+      "nets": {
+        "47": "GND",
+        "48": "+3V3",
+        "5": "PLAYER1_N",
+        "6": "PLAYER2_N",
+        "7": "PLAYER3_N",
+        "8": "START_N",
+        "9": "RESET_N",
+        "10": "SEG_A",
+        "11": "SEG_B",
+        "12": "SEG_C",
+        "13": "SEG_D",
+        "14": "SEG_E",
+        "15": "SEG_F",
+        "16": "SEG_G",
+        "17": "SEG_P",
+        "18": "DIG1",
+        "19": "DIG2",
+        "20": "DIG3",
+        "21": "DIG4",
+        "22": "BUZZER_PWM",
+        "44": "WIN1",
+        "45": "WIN2",
+        "46": "WIN3",
+        "43": "READY"
+      },
+      "sch": [
+        60.96,
+        63.5
+      ],
+      "pcb": [
+        60,
+        54,
+        0
+      ],
+      "mpn": "Tang Nano 9K",
+      "maker": "Sipeed",
+      "url": "https://dl.sipeed.com/fileList/TANG/Nano%209K/2_Schematic/Tang_Nano_9k_3672_Schematic.pdf",
+      "uuid": "45188aa1-e0d8-58a3-91cc-a627d19fb6ff"
+    },
+    {
+      "ref": "U2",
+      "value": "SN74LVC244ADWR",
+      "kind": "SN74LVC244A",
+      "fp": "FF_RevB:SOIC-20W_7.5x12.8mm_P1.27mm",
+      "nets": {
+        "1": "GND",
+        "19": "GND",
+        "20": "+3V3",
+        "10": "GND",
+        "2": "SEG_A",
+        "18": "BUF_A",
+        "4": "SEG_B",
+        "16": "BUF_B",
+        "6": "SEG_C",
+        "14": "BUF_C",
+        "8": "SEG_D",
+        "12": "BUF_D",
+        "11": "SEG_E",
+        "9": "BUF_E",
+        "13": "SEG_F",
+        "7": "BUF_F",
+        "15": "SEG_G",
+        "5": "BUF_G",
+        "17": "SEG_P",
+        "3": "BUF_P"
+      },
+      "sch": [
+        147.32,
+        58.42
+      ],
+      "pcb": [
+        113,
+        64,
+        0
+      ],
+      "mpn": "SN74LVC244ADWR",
+      "maker": "Texas Instruments",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf",
+      "uuid": "6b7ac0e6-e177-5b6a-8073-cdad0f786b44"
+    },
+    {
+      "ref": "DS1",
+      "value": "CC56-12EWA",
+      "kind": "CC56_12EWA",
+      "fp": "FF_RevB:CC56_12EWA",
+      "nets": {
+        "11": "LED_A",
+        "7": "LED_B",
+        "4": "LED_C",
+        "2": "LED_D",
+        "1": "LED_E",
+        "10": "LED_F",
+        "5": "LED_G",
+        "3": "LED_P",
+        "12": "CATHODE1",
+        "9": "CATHODE2",
+        "8": "CATHODE3",
+        "6": "CATHODE4"
+      },
+      "sch": [
+        248.92,
+        55.88
+      ],
+      "pcb": [
+        150,
+        52,
+        0
+      ],
+      "mpn": "CC56-12EWA",
+      "maker": "Kingbright",
+      "url": "https://www.kingbrightusa.com/images/catalog/SPEC/CC56-12EWA.pdf",
+      "uuid": "cb0e0074-43db-5449-bbec-f7c90eba6226"
+    },
+    {
+      "ref": "R1",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_A",
+        "2": "LED_A"
+      },
+      "sch": [
+        203.2,
+        30.48
+      ],
+      "pcb": [
+        127,
+        69,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "fc94507d-7dd1-56f4-8a60-025f4d636e26"
+    },
+    {
+      "ref": "R30",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_A",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        30.48
+      ],
+      "pcb": [
+        103,
+        43,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "ec8aae57-e00e-52f1-b3cd-7db43c0af84d"
+    },
+    {
+      "ref": "R2",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_B",
+        "2": "LED_B"
+      },
+      "sch": [
+        203.2,
+        38.1
+      ],
+      "pcb": [
+        133,
+        69,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "a47892eb-6dfd-5991-b1c0-215a0c8b0799"
+    },
+    {
+      "ref": "R31",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_B",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        38.1
+      ],
+      "pcb": [
+        103,
+        46,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "82ce3a89-621d-55ba-aa3e-3eff788b2ff6"
+    },
+    {
+      "ref": "R3",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_C",
+        "2": "LED_C"
+      },
+      "sch": [
+        203.2,
+        45.72
+      ],
+      "pcb": [
+        139,
+        69,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "a1165979-b5b6-541a-905b-cd93cff119b4"
+    },
+    {
+      "ref": "R32",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_C",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        45.72
+      ],
+      "pcb": [
+        103,
+        49,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "e0919551-1f31-5127-8aa4-76727b5778b7"
+    },
+    {
+      "ref": "R4",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_D",
+        "2": "LED_D"
+      },
+      "sch": [
+        203.2,
+        53.34
+      ],
+      "pcb": [
+        145,
+        69,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "987dc1ac-3cb6-5d65-9a41-cd36808c9924"
+    },
+    {
+      "ref": "R33",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_D",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        53.34
+      ],
+      "pcb": [
+        103,
+        52,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "63cb606b-75a6-5196-8a2f-f50db4a8a64c"
+    },
+    {
+      "ref": "R5",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_E",
+        "2": "LED_E"
+      },
+      "sch": [
+        203.2,
+        60.96
+      ],
+      "pcb": [
+        127,
+        75,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "4e352843-3746-52ab-bf15-07cbdbd054c4"
+    },
+    {
+      "ref": "R34",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_E",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        60.96
+      ],
+      "pcb": [
+        103,
+        55,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "9a4d4777-6158-5505-a25e-1ae6ff1e4d3a"
+    },
+    {
+      "ref": "R6",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_F",
+        "2": "LED_F"
+      },
+      "sch": [
+        203.2,
+        68.58
+      ],
+      "pcb": [
+        133,
+        75,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "7d96ba5f-fc5e-5572-a156-e1f59bedad02"
+    },
+    {
+      "ref": "R35",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_F",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        68.58
+      ],
+      "pcb": [
+        103,
+        58,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "db1a1b05-0063-513d-b17a-0b2a14c199ec"
+    },
+    {
+      "ref": "R7",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_G",
+        "2": "LED_G"
+      },
+      "sch": [
+        203.2,
+        76.2
+      ],
+      "pcb": [
+        139,
+        75,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "42132a42-851b-5d41-854a-741a031377bc"
+    },
+    {
+      "ref": "R36",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_G",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        76.2
+      ],
+      "pcb": [
+        103,
+        61,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "3b949cd3-f002-5b7c-acb1-5b80b4a82e58"
+    },
+    {
+      "ref": "R8",
+      "value": "330",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUF_P",
+        "2": "LED_P"
+      },
+      "sch": [
+        203.2,
+        83.82000000000001
+      ],
+      "pcb": [
+        145,
+        75,
+        90
+      ],
+      "mpn": "RC0805FR-07330RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "a96bb475-ec30-5097-bd10-06a2bc924dc5"
+    },
+    {
+      "ref": "R37",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "SEG_P",
+        "2": "GND"
+      },
+      "sch": [
+        330.2,
+        83.82000000000001
+      ],
+      "pcb": [
+        103,
+        64,
+        0
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "71c306f8-08eb-5c2f-8343-6c0c1669b019"
+    },
+    {
+      "ref": "Q1",
+      "value": "AO3400A",
+      "kind": "Q_NMOS_GSD",
+      "fp": "FF_RevB:SOT-23",
+      "nets": {
+        "1": "GATE1",
+        "2": "GND",
+        "3": "CATHODE1"
+      },
+      "sch": [
+        55.88,
+        129.54
+      ],
+      "pcb": [
+        137,
+        87,
+        0
+      ],
+      "mpn": "AO3400A",
+      "maker": "Alpha & Omega",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "uuid": "e8800729-fbd4-5430-9ae4-826f8539ad51"
+    },
+    {
+      "ref": "R9",
+      "value": "100",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "DIG1",
+        "2": "GATE1"
+      },
+      "sch": [
+        35.56,
+        124.46
+      ],
+      "pcb": [
+        133,
+        87,
+        90
+      ],
+      "mpn": "RC0805FR-07100RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "b45172aa-e776-554c-b66c-948758def5fe"
+    },
+    {
+      "ref": "R14",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "GATE1",
+        "2": "GND"
+      },
+      "sch": [
+        35.56,
+        139.7
+      ],
+      "pcb": [
+        133,
+        92,
+        90
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "157e1bf4-701c-5b54-8c35-3084f346391c"
+    },
+    {
+      "ref": "Q2",
+      "value": "AO3400A",
+      "kind": "Q_NMOS_GSD",
+      "fp": "FF_RevB:SOT-23",
+      "nets": {
+        "1": "GATE2",
+        "2": "GND",
+        "3": "CATHODE2"
+      },
+      "sch": [
+        124.46000000000001,
+        129.54
+      ],
+      "pcb": [
+        148,
+        87,
+        0
+      ],
+      "mpn": "AO3400A",
+      "maker": "Alpha & Omega",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "uuid": "dd7fd0ba-cbc0-533e-b99d-c2cd30bc3e53"
+    },
+    {
+      "ref": "R10",
+      "value": "100",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "DIG2",
+        "2": "GATE2"
+      },
+      "sch": [
+        104.14,
+        124.46
+      ],
+      "pcb": [
+        144,
+        87,
+        90
+      ],
+      "mpn": "RC0805FR-07100RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "8b8a2462-cc1f-5588-bd95-cb8ac66ed8fc"
+    },
+    {
+      "ref": "R15",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "GATE2",
+        "2": "GND"
+      },
+      "sch": [
+        104.14,
+        139.7
+      ],
+      "pcb": [
+        144,
+        92,
+        90
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "8784b51f-c302-50e7-b529-4ca9f1f2c711"
+    },
+    {
+      "ref": "Q3",
+      "value": "AO3400A",
+      "kind": "Q_NMOS_GSD",
+      "fp": "FF_RevB:SOT-23",
+      "nets": {
+        "1": "GATE3",
+        "2": "GND",
+        "3": "CATHODE3"
+      },
+      "sch": [
+        193.04,
+        129.54
+      ],
+      "pcb": [
+        159,
+        87,
+        0
+      ],
+      "mpn": "AO3400A",
+      "maker": "Alpha & Omega",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "uuid": "551b60df-4e6e-588e-87c1-dfebb97fa505"
+    },
+    {
+      "ref": "R11",
+      "value": "100",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "DIG3",
+        "2": "GATE3"
+      },
+      "sch": [
+        172.72,
+        124.46
+      ],
+      "pcb": [
+        155,
+        87,
+        90
+      ],
+      "mpn": "RC0805FR-07100RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "fb209b94-46cc-549a-8b38-2fd6006fad7c"
+    },
+    {
+      "ref": "R16",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "GATE3",
+        "2": "GND"
+      },
+      "sch": [
+        172.72,
+        139.7
+      ],
+      "pcb": [
+        155,
+        92,
+        90
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "aa94a906-d913-5a30-b7c9-4e7947db294a"
+    },
+    {
+      "ref": "Q4",
+      "value": "AO3400A",
+      "kind": "Q_NMOS_GSD",
+      "fp": "FF_RevB:SOT-23",
+      "nets": {
+        "1": "GATE4",
+        "2": "GND",
+        "3": "CATHODE4"
+      },
+      "sch": [
+        261.62,
+        129.54
+      ],
+      "pcb": [
+        170,
+        87,
+        0
+      ],
+      "mpn": "AO3400A",
+      "maker": "Alpha & Omega",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "uuid": "6cea1ce2-d43c-5e73-abbb-6d1611de9db7"
+    },
+    {
+      "ref": "R12",
+      "value": "100",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "DIG4",
+        "2": "GATE4"
+      },
+      "sch": [
+        241.3,
+        124.46
+      ],
+      "pcb": [
+        166,
+        87,
+        90
+      ],
+      "mpn": "RC0805FR-07100RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "95560868-c2ca-5d51-b5f2-0b4783cd02ad"
+    },
+    {
+      "ref": "R17",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "GATE4",
+        "2": "GND"
+      },
+      "sch": [
+        241.3,
+        139.7
+      ],
+      "pcb": [
+        166,
+        92,
+        90
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "dcbe0966-c945-5321-b3c9-50c97111a4c7"
+    },
+    {
+      "ref": "Q5",
+      "value": "AO3400A",
+      "kind": "Q_NMOS_GSD",
+      "fp": "FF_RevB:SOT-23",
+      "nets": {
+        "1": "GATE5",
+        "2": "GND",
+        "3": "PIEZO_LOW"
+      },
+      "sch": [
+        330.2,
+        129.54
+      ],
+      "pcb": [
+        180,
+        86,
+        0
+      ],
+      "mpn": "AO3400A",
+      "maker": "Alpha & Omega",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "uuid": "a66090ce-e014-5974-9751-be7b48d8fa30"
+    },
+    {
+      "ref": "R13",
+      "value": "100",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "BUZZER_PWM",
+        "2": "GATE5"
+      },
+      "sch": [
+        309.88,
+        124.46
+      ],
+      "pcb": [
+        176,
+        86,
+        90
+      ],
+      "mpn": "RC0805FR-07100RL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "791baa0b-52ee-59b1-a94e-bf5f40edc543"
+    },
+    {
+      "ref": "R18",
+      "value": "100k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "GATE5",
+        "2": "GND"
+      },
+      "sch": [
+        309.88,
+        139.7
+      ],
+      "pcb": [
+        176,
+        91,
+        90
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "4279a89b-6fc6-50d9-bfca-3bd6554c2385"
+    },
+    {
+      "ref": "BZ1",
+      "value": "PS1240P02BT",
+      "kind": "Buzzer",
+      "fp": "FF_RevB:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm",
+      "nets": {
+        "1": "+3V3",
+        "2": "PIEZO_LOW"
+      },
+      "sch": [
+        355.6,
+        116.84
+      ],
+      "pcb": [
+        180,
+        73,
+        0
+      ],
+      "mpn": "PS1240P02BT",
+      "maker": "TDK",
+      "url": "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf",
+      "uuid": "1cf80895-e835-523f-a148-5efdb7bfe455"
+    },
+    {
+      "ref": "R19",
+      "value": "1k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "PIEZO_LOW"
+      },
+      "sch": [
+        355.6,
+        139.7
+      ],
+      "pcb": [
+        185,
+        86,
+        90
+      ],
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "1190b966-36d7-5519-8f1d-cd83d337a918"
+    },
+    {
+      "ref": "SW1",
+      "value": "B3F-5051",
+      "kind": "SW_Push",
+      "fp": "FF_RevB:SW_SPST_Omron_B3F-50xx",
+      "nets": {
+        "1": "PLAYER1_N",
+        "2": "GND"
+      },
+      "sch": [
+        40.64,
+        187.96
+      ],
+      "pcb": [
+        48,
+        120,
+        0
+      ],
+      "mpn": "B3F-5051",
+      "maker": "Omron",
+      "url": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+      "uuid": "60c07796-aabd-5d7f-b75d-2371e800f73b"
+    },
+    {
+      "ref": "R20",
+      "value": "10k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "PLAYER1_N"
+      },
+      "sch": [
+        40.64,
+        172.72
+      ],
+      "pcb": [
+        52,
+        112,
+        0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "6e44172f-3913-55a2-b428-9b7b7d9e409e"
+    },
+    {
+      "ref": "C4",
+      "value": "1n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "PLAYER1_N",
+        "2": "GND"
+      },
+      "sch": [
+        60.96,
+        187.96
+      ],
+      "pcb": [
+        57,
+        112,
+        0
+      ],
+      "mpn": "GRM21A5C1H102JA01D",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "67543f0c-933a-535d-80c2-d44944886923"
+    },
+    {
+      "ref": "SW2",
+      "value": "B3F-5051",
+      "kind": "SW_Push",
+      "fp": "FF_RevB:SW_SPST_Omron_B3F-50xx",
+      "nets": {
+        "1": "PLAYER2_N",
+        "2": "GND"
+      },
+      "sch": [
+        111.76,
+        187.96
+      ],
+      "pcb": [
+        101,
+        120,
+        0
+      ],
+      "mpn": "B3F-5051",
+      "maker": "Omron",
+      "url": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+      "uuid": "289d6844-9205-55e7-9d64-520a78e6f77e"
+    },
+    {
+      "ref": "R21",
+      "value": "10k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "PLAYER2_N"
+      },
+      "sch": [
+        111.76,
+        172.72
+      ],
+      "pcb": [
+        105,
+        112,
+        0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "1a6007ec-dea2-5c52-bd29-f046a1c8ea11"
+    },
+    {
+      "ref": "C5",
+      "value": "1n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "PLAYER2_N",
+        "2": "GND"
+      },
+      "sch": [
+        132.08,
+        187.96
+      ],
+      "pcb": [
+        110,
+        112,
+        0
+      ],
+      "mpn": "GRM21A5C1H102JA01D",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "8a63c1ab-c4cf-57f0-9019-53982a69df9c"
+    },
+    {
+      "ref": "SW3",
+      "value": "B3F-5051",
+      "kind": "SW_Push",
+      "fp": "FF_RevB:SW_SPST_Omron_B3F-50xx",
+      "nets": {
+        "1": "PLAYER3_N",
+        "2": "GND"
+      },
+      "sch": [
+        182.88,
+        187.96
+      ],
+      "pcb": [
+        154,
+        120,
+        0
+      ],
+      "mpn": "B3F-5051",
+      "maker": "Omron",
+      "url": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+      "uuid": "9e0ea19e-5dc4-52c8-b934-2b4f2075a266"
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "PLAYER3_N"
+      },
+      "sch": [
+        182.88,
+        172.72
+      ],
+      "pcb": [
+        158,
+        112,
+        0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "ae698def-86a4-5bed-91f1-d4c1f7c2e378"
+    },
+    {
+      "ref": "C6",
+      "value": "1n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "PLAYER3_N",
+        "2": "GND"
+      },
+      "sch": [
+        203.20000000000002,
+        187.96
+      ],
+      "pcb": [
+        163,
+        112,
+        0
+      ],
+      "mpn": "GRM21A5C1H102JA01D",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "e469e5c1-ffdc-51c2-8862-9bcfcf8b0880"
+    },
+    {
+      "ref": "SW4",
+      "value": "B3F-1002-G",
+      "kind": "SW_Push",
+      "fp": "FF_RevB:SW_TH_Tactile_Omron_B3F-100x",
+      "nets": {
+        "1": "START_N",
+        "2": "GND"
+      },
+      "sch": [
+        254.0,
+        187.96
+      ],
+      "pcb": [
+        39,
+        79,
+        0
+      ],
+      "mpn": "B3F-1002-G",
+      "maker": "Omron",
+      "url": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+      "uuid": "7f92d6fe-785f-5700-826e-d074c47e0d40"
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "START_N"
+      },
+      "sch": [
+        254.0,
+        172.72
+      ],
+      "pcb": [
+        43,
+        71,
+        0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "c73ad75f-7547-5525-87bc-59d2f70a09e4"
+    },
+    {
+      "ref": "C7",
+      "value": "1n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "START_N",
+        "2": "GND"
+      },
+      "sch": [
+        274.32,
+        187.96
+      ],
+      "pcb": [
+        48,
+        71,
+        0
+      ],
+      "mpn": "GRM21A5C1H102JA01D",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "a1e7263b-a404-5620-8d04-330e75b6c71e"
+    },
+    {
+      "ref": "SW5",
+      "value": "B3F-1002-G",
+      "kind": "SW_Push",
+      "fp": "FF_RevB:SW_TH_Tactile_Omron_B3F-100x",
+      "nets": {
+        "1": "RESET_N",
+        "2": "GND"
+      },
+      "sch": [
+        325.12,
+        187.96
+      ],
+      "pcb": [
+        66,
+        79,
+        0
+      ],
+      "mpn": "B3F-1002-G",
+      "maker": "Omron",
+      "url": "https://components.omron.com/us-en/datasheet_pdf/A070-E1.pdf",
+      "uuid": "56d762c9-9b18-5bdd-9d11-82e348bf43fb"
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "RESET_N"
+      },
+      "sch": [
+        325.12,
+        172.72
+      ],
+      "pcb": [
+        70,
+        71,
+        0
+      ],
+      "mpn": "RC0805FR-0710KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "9e1039f9-d671-5476-9aa6-cd0f52631081"
+    },
+    {
+      "ref": "C8",
+      "value": "1n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "RESET_N",
+        "2": "GND"
+      },
+      "sch": [
+        345.44,
+        187.96
+      ],
+      "pcb": [
+        75,
+        71,
+        0
+      ],
+      "mpn": "GRM21A5C1H102JA01D",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "f9115cef-6b02-5265-b2f7-0ba189c46bbf"
+    },
+    {
+      "ref": "D1",
+      "value": "WP7113ID",
+      "kind": "LED",
+      "fp": "FF_RevB:LED_D5.0mm",
+      "nets": {
+        "1": "GND",
+        "2": "LED_ANODE1"
+      },
+      "sch": [
+        50.8,
+        236.22
+      ],
+      "pcb": [
+        54,
+        105,
+        0
+      ],
+      "mpn": "WP7113ID",
+      "maker": "Kingbright",
+      "url": "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf",
+      "uuid": "2b0c8f47-a685-5b25-854b-9a9206e79d92"
+    },
+    {
+      "ref": "R25",
+      "value": "1k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "WIN1",
+        "2": "LED_ANODE1"
+      },
+      "sch": [
+        30.48,
+        226.06
+      ],
+      "pcb": [
+        54,
+        98,
+        0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "64bb466e-9263-57fe-bf47-75ab4fd42145"
+    },
+    {
+      "ref": "D2",
+      "value": "WP7113ID",
+      "kind": "LED",
+      "fp": "FF_RevB:LED_D5.0mm",
+      "nets": {
+        "1": "GND",
+        "2": "LED_ANODE2"
+      },
+      "sch": [
+        134.62,
+        236.22
+      ],
+      "pcb": [
+        107,
+        105,
+        0
+      ],
+      "mpn": "WP7113ID",
+      "maker": "Kingbright",
+      "url": "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf",
+      "uuid": "61cd79df-6447-5b2b-82bf-72b7dfb4637f"
+    },
+    {
+      "ref": "R26",
+      "value": "1k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "WIN2",
+        "2": "LED_ANODE2"
+      },
+      "sch": [
+        114.3,
+        226.06
+      ],
+      "pcb": [
+        107,
+        98,
+        0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "ed0f365b-8584-533c-b08e-1727e4167746"
+    },
+    {
+      "ref": "D3",
+      "value": "WP7113ID",
+      "kind": "LED",
+      "fp": "FF_RevB:LED_D5.0mm",
+      "nets": {
+        "1": "GND",
+        "2": "LED_ANODE3"
+      },
+      "sch": [
+        218.44,
+        236.22
+      ],
+      "pcb": [
+        160,
+        105,
+        0
+      ],
+      "mpn": "WP7113ID",
+      "maker": "Kingbright",
+      "url": "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf",
+      "uuid": "e84bf3ed-7f3f-56f6-b87b-b71cd3832c3f"
+    },
+    {
+      "ref": "R27",
+      "value": "1k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "WIN3",
+        "2": "LED_ANODE3"
+      },
+      "sch": [
+        198.11999999999998,
+        226.06
+      ],
+      "pcb": [
+        160,
+        98,
+        0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "c8947a9b-19ff-53ad-838a-75b38b785ced"
+    },
+    {
+      "ref": "D4",
+      "value": "WP7113ID",
+      "kind": "LED",
+      "fp": "FF_RevB:LED_D5.0mm",
+      "nets": {
+        "1": "GND",
+        "2": "LED_ANODE4"
+      },
+      "sch": [
+        302.26,
+        236.22
+      ],
+      "pcb": [
+        113,
+        45,
+        0
+      ],
+      "mpn": "WP7113ID",
+      "maker": "Kingbright",
+      "url": "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf",
+      "uuid": "b1864adf-9c38-549b-b6b8-d6637f714080"
+    },
+    {
+      "ref": "R28",
+      "value": "1k",
+      "kind": "R",
+      "fp": "FF_RevB:R_0805_2012Metric",
+      "nets": {
+        "1": "READY",
+        "2": "LED_ANODE4"
+      },
+      "sch": [
+        281.94,
+        226.06
+      ],
+      "pcb": [
+        113,
+        39,
+        0
+      ],
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "url": "",
+      "uuid": "794bf7bb-8be7-5730-925b-190e3d8d26c8"
+    },
+    {
+      "ref": "C1",
+      "value": "100n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "sch": [
+        35.56,
+        276.86
+      ],
+      "pcb": [
+        121,
+        58.285,
+        0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "c70bd44b-4396-5560-ae53-c66978d7437e"
+    },
+    {
+      "ref": "C2",
+      "value": "10u",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "sch": [
+        66.04,
+        276.86
+      ],
+      "pcb": [
+        87,
+        37,
+        0
+      ],
+      "mpn": "GRM21BR61A106KE19L",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "b2784203-a06a-562d-ab10-ed28a49d6e39"
+    },
+    {
+      "ref": "C3",
+      "value": "100n",
+      "kind": "C",
+      "fp": "FF_RevB:C_0805_2012Metric",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "sch": [
+        96.52,
+        276.86
+      ],
+      "pcb": [
+        87,
+        34,
+        0
+      ],
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "url": "",
+      "uuid": "e425621e-ad17-5e1a-ba33-16bb6367c6aa"
+    },
+    {
+      "ref": "H1",
+      "value": "M3 mounting",
+      "kind": "MountingHole",
+      "fp": "FF_RevB:MountingHole_3.2mm_M3",
+      "nets": {},
+      "sch": [
+        203.2,
+        276.86
+      ],
+      "pcb": [
+        27,
+        31,
+        0
+      ],
+      "mpn": "M3 clearance hole",
+      "maker": "Mechanical",
+      "url": "",
+      "uuid": "b704b3e4-a54e-537e-aee2-2dc30d64d26f"
+    },
+    {
+      "ref": "H2",
+      "value": "M3 mounting",
+      "kind": "MountingHole",
+      "fp": "FF_RevB:MountingHole_3.2mm_M3",
+      "nets": {},
+      "sch": [
+        228.6,
+        276.86
+      ],
+      "pcb": [
+        187,
+        31,
+        0
+      ],
+      "mpn": "M3 clearance hole",
+      "maker": "Mechanical",
+      "url": "",
+      "uuid": "d53971b9-7fbe-5ed5-9a3a-e0cebbb4fb02"
+    },
+    {
+      "ref": "H3",
+      "value": "M3 mounting",
+      "kind": "MountingHole",
+      "fp": "FF_RevB:MountingHole_3.2mm_M3",
+      "nets": {},
+      "sch": [
+        254.0,
+        276.86
+      ],
+      "pcb": [
+        27,
+        143,
+        0
+      ],
+      "mpn": "M3 clearance hole",
+      "maker": "Mechanical",
+      "url": "",
+      "uuid": "5de5d1f3-0b9e-5033-bc80-cb2ae0595ea0"
+    },
+    {
+      "ref": "H4",
+      "value": "M3 mounting",
+      "kind": "MountingHole",
+      "fp": "FF_RevB:MountingHole_3.2mm_M3",
+      "nets": {},
+      "sch": [
+        279.4,
+        276.86
+      ],
+      "pcb": [
+        187,
+        143,
+        0
+      ],
+      "mpn": "M3 clearance hole",
+      "maker": "Mechanical",
+      "url": "",
+      "uuid": "8db86a4b-00bd-5980-bbd8-bf01895f731d"
+    },
+    {
+      "ref": "TP1",
+      "value": "+3V3",
+      "kind": "TestPoint",
+      "fp": "FF_RevB:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "+3V3"
+      },
+      "sch": [
+        137.16,
+        276.86
+      ],
+      "pcb": [
+        96,
+        37,
+        0
+      ],
+      "mpn": "D2.0mm test pad",
+      "maker": "PCB",
+      "url": "",
+      "uuid": "eb6e3d64-4002-580e-8112-8173d7b618ce"
+    },
+    {
+      "ref": "TP2",
+      "value": "GND",
+      "kind": "TestPoint",
+      "fp": "FF_RevB:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "GND"
+      },
+      "sch": [
+        157.48,
+        276.86
+      ],
+      "pcb": [
+        99,
+        41,
+        0
+      ],
+      "mpn": "D2.0mm test pad",
+      "maker": "PCB",
+      "url": "",
+      "uuid": "5541f109-0497-52df-955a-471a3af931d2"
+    },
+    {
+      "ref": "TP3",
+      "value": "BUZZER_PWM",
+      "kind": "TestPoint",
+      "fp": "FF_RevB:TestPoint_Pad_D2.0mm",
+      "nets": {
+        "1": "BUZZER_PWM"
+      },
+      "sch": [
+        177.8,
+        276.86
+      ],
+      "pcb": [
+        179,
+        95,
+        0
+      ],
+      "mpn": "D2.0mm test pad",
+      "maker": "PCB",
+      "url": "",
+      "uuid": "b68daecd-9b86-50b7-b0ab-760605db0ccd"
+    }
+  ],
+  "j5_fpga_pins": [
+    38,
+    37,
+    36,
+    39,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    33,
+    34,
+    40,
+    35,
+    41,
+    42,
+    51,
+    53,
+    54,
+    55,
+    56,
+    57,
+    68,
+    69
+  ],
+  "j6_fpga_pins": [
+    63,
+    86,
+    85,
+    84,
+    83,
+    82,
+    81,
+    80,
+    79,
+    77,
+    76,
+    75,
+    74,
+    73,
+    72,
+    71,
+    70,
+    "5V",
+    48,
+    49,
+    31,
+    32,
+    "GND",
+    "3V3"
+  ]
+}
