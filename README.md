@@ -1,3 +1,48 @@
+<div align="center">
+
+**KICAD · PCB LAYOUT · PRELIMINARY SCHEMATIC**
+
+# FASTEST FINGER
+
+### A three-player game concept, explored through PCB design.
+
+[Explore the project](#project-overview) · [Documentation](#project-documentation) · [Contact the developer](mailto:louise.catala24@gmail.com)
+
+</div>
+
+<p align="center">
+  <img src="3d.jpg" alt="KiCad 3D preview of the Fastest Finger board layout" width="1000">
+</p>
+
+<p align="center"><em>Existing KiCad 3D visualization. Component models are approximate; this is not a photograph of a fabricated board.</em></p>
+
+## Project overview
+
+An editable PCB-layout study for a three-player Fastest Finger game concept. The board brings player controls, a display, and supporting components into one visual design that can be explored in KiCad.
+
+| At a glance | What it means |
+| --- | --- |
+| **3 players** | Three-player control layout |
+| **KiCad project** | Editable board and schematic files |
+| **174 × 128 mm** | Documented nominal board dimensions |
+
+## Explore the design, with its status in view
+
+**Design status: preliminary, not manufacturing-ready.** The layout was reconstructed from a supplied reference image. Traces are not fully routed, electrical connections and component choices need verification, and FPGA code is not included. The value here is an inspectable layout and schematic study, with its limitations stated openly.
+
+<p align="center">
+  <img src="schem.jpg" alt="Existing preliminary Fastest Finger schematic" width="1000">
+</p>
+
+*Preliminary schematic preview; retain the verification requirements in the original documentation below.*
+
+[Explore the project package](Fastest-Finger-RevB)
+
+## Project documentation
+
+<details>
+<summary><strong>Open the original project notes, files, and setup instructions</strong></summary>
+
 
 # FASTEST FINGER — Made by Catala
 
@@ -67,6 +112,11 @@ Real footprints and dimensions must be checked against the specific parts to be 
 
 **Made by Catala**
 
+
+
+</details>
+
+---
 
 ## License and Support
 
